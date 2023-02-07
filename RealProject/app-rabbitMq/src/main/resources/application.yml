@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: 143.198.117.25
+    port: 5672
+    username: alisher
+    password: alisher
+
+server:
+  port: 8088
