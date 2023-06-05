@@ -1,5 +1,7 @@
 package com.example.controller;
 
+import com.example.dto.LoginDTO;
+import com.example.dto.LoginResponseDTO;
 import com.example.dto.ProfileDTO;
 import com.example.service.AuthService;
 import lombok.AllArgsConstructor;
@@ -30,5 +32,13 @@ public class AuthController {
         String result=authService.verification(jwt);
         return ResponseEntity.ok(result);
     }
+
+    @PostMapping("/login")
+    public ResponseEntity<?> login(@RequestBody LoginDTO dto) {
+        LoginResponseDTO response = authService.login(dto);
+        return ResponseEntity.ok(response);
+    }
+
+//    they are API ofr  our registration
 
 }
