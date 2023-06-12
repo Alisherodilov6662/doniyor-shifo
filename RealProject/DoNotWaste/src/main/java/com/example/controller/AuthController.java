@@ -39,12 +39,14 @@ public class AuthController {
         return ResponseEntity.ok(response);
     }
 
-//    they are API ofr  our registration
+
 
      int game=3;
 
     public void game(){
         game=19;
     }
+
+
 
 }
