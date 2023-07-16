@@ -8,6 +8,6 @@ I used many technalogies for backend of this website.
 RestAPI<br/>
 Spring Security and JWT<br/>
 Unicode<br/>
-TelegramBOT for responding to the patient messages<br/>
 Swagger<br/>
-Docker
+Docker<br/>
+Flyway
